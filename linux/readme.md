@@ -1,5 +1,21 @@
 ### install
-如果你的系统是支持deb安装包的可以直接执行本脚本。
+
+1.  arch
+
+   直接
+
+   ```shell
+   sudo pacman -S v2ray
+   sudo pacman -S v2raya
+   ```
+
+   这时候就可以在相应的桌面环境的菜单中找到v2raya 。
+
+2. deb
+
+如果你的系统是支持deb安装包的可以直接执行本目录下的install.sh脚本。记住需要本目录下的所有文件和文件夹参与。
+
+在此之前请确保存在unzip命令
 
 如果不支持deb可以找到脚本中的相应代码块更改这部分代码。
 
